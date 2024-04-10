@@ -1,2 +1,3 @@
-# Documentation
-Documentation for Cubed Development projects powered by Docusaurus 3
+# Modern Warfare Cubed Documentation
+
+The official Modern Warfare Cubed documentation powered by Docusaurus 3
