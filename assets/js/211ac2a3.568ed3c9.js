@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[973],{3451:e=>{e.exports=JSON.parse('{"tags":[{"label":"Hacks","permalink":"/Modern-Warfare-Cubed-Documentation/tags/hacks","count":2},{"label":"Assets","permalink":"/Modern-Warfare-Cubed-Documentation/tags/assets","count":3}]}')}}]);
