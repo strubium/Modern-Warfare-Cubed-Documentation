@@ -17,39 +17,39 @@
   --ifm-heading-font-family: 'Nunito', sans-serif;
   --ifm-font-family-monospace: 'Fira Code', monospace;
 
-  background-color: #ffffff;
+  background-color: #f8f9fa;
+  color: #212529;
 
-  --ifm-color-primary: #fdcb6e;
-  --ifm-color-primary-dark: #fdbe4a;
-  --ifm-color-primary-darker: #fcb838;
-  --ifm-color-primary-darkest: #fba403;
-  --ifm-color-primary-light: #fdd892;
-  --ifm-color-primary-lighter: #fedea4;
-  --ifm-color-primary-lightest: #fef2d9;
+  --ifm-color-primary: #f39c12;
+  --ifm-color-primary-dark: #e67e22;
+  --ifm-color-primary-darker: #d35400;
+  --ifm-color-primary-darkest: #c0392b;
+  --ifm-color-primary-light: #f7b731;
+  --ifm-color-primary-lighter: #fbc02d;
+  --ifm-color-primary-lightest: #fdf3d4;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05);
 }
 
 nav.navbar--fixed-top {
-  background-color: #ededed;
+  background-color: #eaeaea;
+  border-bottom: 1px solid #d1d1d1;
 }
 
 footer.footer--dark {
-  color: #1c1e21;
-  background-color: #ededed;
+  color: #333;
+  background-color: #ddd;
+  border-top: 1px solid #c2c2c2;
 }
 
-div.footer__title {
-  color: #1c1e21;
+div.footer__title, a.footer__link-item {
+  color: #444;
 }
 
-a.footer__link-item {
-  color: #1c1e21;
-}
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode adjustments */
 [data-theme='dark'] {
-  background-color: #111111;
+  background-color: #111;
+  color: #f5f6f7;
 
   --ifm-color-primary: #fdcb6e;
   --ifm-color-primary-dark: #fdbe4a;
@@ -69,24 +69,13 @@ a.footer__link-item {
     background-color: #1A1A1A;
   }
 
-  div.footer__title {
-    color: #f5f6f7;
-  }
-
-  a.footer__link-item {
+  div.footer__title, a.footer__link-item {
     color: #f5f6f7;
   }
 }
 
-li.menu__list-item.debug {
-  font-family: 'Monaspace Krypton', monospace;
-}
-
-li.menu__list-item.hacks {
-  font-family: 'Monaspace Krypton', monospace;
-}
-
-li.menu__list-item.hacks-folder {
+/* Menu item styles */
+li.menu__list-item {
   font-family: 'Monaspace Krypton', monospace;
 }
 
@@ -104,9 +93,9 @@ li.menu__list-item.assets::before {
   padding: 0.1125rem 0.925rem;
   border-radius: 9999px;
   font-size: 0.875rem;
-  background-color: rgba(253, 203, 110, 0.1);
-  color: #fdcb6e;
-  border: 1px solid #fdbe4a;
+  background-color: rgba(243, 156, 18, 0.15);
+  color: #e67e22;
+  border: 1px solid #d35400;
 }
 
 li.menu__list-item.hacks {
@@ -125,7 +114,7 @@ li.menu__list-item.hacks::before {
   margin-right: 0.1rem;
   border-radius: 9999px;
   font-size: 0.875rem;
-  background-color: rgba(0, 255, 0, 0.1);
-  color: #00ff00;
-  border: 1px solid #00dc00;
+  background-color: rgba(0, 255, 0, 0.15);
+  color: #27ae60;
+  border: 1px solid #229954;
 }

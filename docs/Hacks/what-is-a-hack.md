@@ -24,6 +24,7 @@ This is the reason documenting the why, how and when of hacks is crucial.
 
 Yes, if it works, it works... except when it doesn't.
 
-Hacks are a form of [technical debt] and like any kind of [technical debt] they should be avoided when possible and reduced over time.
+Hacks are a form of [technical debt] and like any kind of technical debt they should be avoided when possible and reduced over time. 
+If a hack had no downsides, well then it's not a hack.
 
 [technical debt]: https://en.wikipedia.org/wiki/Technical_debt

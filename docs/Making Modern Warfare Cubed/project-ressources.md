@@ -29,7 +29,7 @@ These are essential resources for collaboration on our project. Here's a breakdo
 
 - **[Contributing Guide]:** Before you start contributing, make sure to read this guide. It'll help you understand our contribution policies and procedures.
 
-- **[Trello Board]:** Our project management tool. You can use it to see what others are working on, track your own tasks, and identify new tasks to pick up. (If you are not a member of the board and you want to be one contact me in DM's)
+- **[Trello Board]:** Our project management tool. You can use it to see what others are working on, track your own tasks, and identify new tasks to pick up. (Outdated and largely unused)
 
 [Cleanroom Discord]: https://discord.gg/jXTBfm27Vf
 [Modern Warfare Cubed Discord]: https://discord.gg/k5WPk93K7b

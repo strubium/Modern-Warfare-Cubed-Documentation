@@ -33,7 +33,7 @@ On the 24th of November 2018 [tterrag1098] created [PR 5047](https://github.com/
 It was merged the same day, what does it do? 
 > This PR aims to add support for "emissive" rendering on items, a feature which is currently only available on blocks.
 > 
-> - [tterrag1098]
+> -[tterrag1098]
 
 It's actually a really nice change, and can be used to make items like glowstone and redstone glow in the dark without costing any kind of performance.
 
@@ -51,7 +51,7 @@ The hack in itself is pretty straightforward, if the config option `ForgeModCont
 
 This does prevent crashes, but it also removes the ability for anyone to use the emissive rendering on items.
 
-## Who let her cook
+## Precooking Models
 
 ### Why
 
@@ -59,7 +59,7 @@ This does prevent crashes, but it also removes the ability for anyone to use the
 
 The why of this hasn't been yet thoroughly investigated.
 
-Some information are high level view of the issue and may not be accurate.
+Some information is more of a high level view of the issue and may not be accurate.
 
 :::
 
